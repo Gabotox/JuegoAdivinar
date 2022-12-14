@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)), url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.container {
+    height: 100vh;
+}
+#input1{
+    width: 300px;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    margin: 10px;
+
+}
+#input1::placeholder {
+    color: #fff;
+}
+
+#button {
+    margin-top: 20px;
+    width: 100px;
+    background: none;
+    border: 0;
+    border: 1px solid rgb(118, 118, 233);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all .6s ease;
+    margin: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+#button:hover {
+    transform: scale(0.95);
+    background: rgb(118, 118, 233);
+}
+.link {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.link i {
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 700px) {
+    .link {
+        font-size: 1.5rem;
+
+    }
+} 
