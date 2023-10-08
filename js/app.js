@@ -28,8 +28,7 @@ minumero = document.getElementById("input1").value;
     }
     
    
-    
-    document.getElementById("p").innerHTML="Te quedan menos intentos";
+
     var minumero = document.getElementById("input1").value;
     
 
